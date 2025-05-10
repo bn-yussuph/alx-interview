@@ -24,7 +24,7 @@ if __name__ == "__main__":
     file_size_total = 0
     try:
         for line in sys.stdin:
-            match = regex.match(line)
+            match = regex.fullmatch(line)
             if match:
                 try:
                     line_count += 1
