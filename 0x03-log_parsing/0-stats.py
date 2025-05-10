@@ -39,7 +39,8 @@ if __name__ == "__main__":
                 if line_count == 10:
                     print_stats(file_size_total, code_freq)
                     line_count = 0
+        print_stats(file_size_total, code_freq)
     except KeyboardInterrupt:
         print_stats(file_size_total, code_freq)
         raise
-    print_stats(file_size_total, code_freq)
+
