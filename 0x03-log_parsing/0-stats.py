@@ -43,7 +43,4 @@ if __name__ == "__main__":
     except KeyboardInterrupt:
         print_stats(file_size_total, code_freq)
         raise
-<<<<<<< HEAD
-=======
 
->>>>>>> 29d6a01 (remove print_stats after finally)
