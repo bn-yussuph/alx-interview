@@ -1,9 +1,9 @@
 #!/usr/bin/python3
 """log parsing
 """
-
 import re
 import sys
+
 
 def print_stats(file_size: int, status_code: dict) -> None:
     """"
@@ -42,4 +42,3 @@ if __name__ == "__main__":
     except KeyboardInterrupt:
         print_stats(file_size_total, code_freq)
         raise
-    print_stats(file_size_total, code_freq)
